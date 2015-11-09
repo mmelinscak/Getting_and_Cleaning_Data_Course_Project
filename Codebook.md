@@ -15,4 +15,4 @@ The script `run_analysis.R`performs five steps as it is described in the course 
 * `features` contains the correct names for the `x_data` dataset, which are applied to the column names stored in `mean_and_std_features` (a numeric vector used to extract the desired data)
 * A similar approach is taken with activity names through the `activities` variable
 * `all_data` merges `x_data`, `y_data` and `subject_data` in one dataset
-* `tidy_data_set` contains the relevant averages which will be later stored in a `.txt` file. `ddply()` from the plyr package is used to apply `colMeans()` and ease the development.
+* `tidy_data_set` contains the relevant averages which are stored in a `.txt` file (`ddply()` from the plyr package is used to apply `colMeans()`)
