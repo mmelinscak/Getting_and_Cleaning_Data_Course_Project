@@ -1,4 +1,4 @@
-# Descrition of the script
+# Description of the script
 
 The script `run_analysis.R`performs five steps as it is described in the course project's definition:
 
@@ -8,7 +8,7 @@ The script `run_analysis.R`performs five steps as it is described in the course 
 * Columns with vague column names are corrected.
 * A new dataset is generated with all the average measures for each subject and activity type (30 subjects * 6 activities = 180 rows). The output file is called `tidy_data_set.txt`(uploaded to this repository).
 
-# Variables
+# Explanation of variables
 
 * `x_train`, `y_train`, `x_test`, `y_test`, `subject_train` and `subject_test` contain the data from the downloaded files
 * `x_data`, `y_data` and `subject_data` merge the previous datasets for the purpose of further analysis
